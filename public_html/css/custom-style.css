@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-image: url("https://benwilder.files.wordpress.com/2013/12/box-kleenex-43649836.jpg");
+    background-size: cover;
     /*--This changes the font for the entire website to Helvetica.*/
     font-family: Helvetica;
     /*--This makes the font for the entire website yellow.*/
@@ -11,7 +12,7 @@ div{
     /*This CSS code in the div sets how our grid system will look, how wide and the color.*/
     border-style: solid;
     border-width: 1px;
-    border-color: white;
+    border-color: black;
     padding: 30px;
 }
 
@@ -45,17 +46,7 @@ img {
     height: 157px;
 }
 
-#ProjectNav{
-    /*This corrects the grid system to line up with the other container.*/
-    height: 1439px;
-}
 
-
-#TechnologyNav{
-    /*This corrects the grid system to line up with the other container.*/
-    height: 1040px;
-    
-}
 
 #w3{
     /*This id selector overrides the above img css code by calling specifically
@@ -65,31 +56,31 @@ img {
 }
 
 .modal-header{
-    /*This makes the modal header have an off grey color.*/
-    background-color: #282828;
+    /*This makes the modal header have an light blue color.*/
+    background-color: #a6e1ec;
 }
 
 .modal-body{
-    /*This makes the modal body have an off grey color.*/
-    background-color: #282828;
+    /*This makes the modal body have an light blue color.*/
+    background-color: #a6e1ec;
 }
 
 .modal-footer{
-    /*This makes the modal footer have an off grey color.*/
-    background-color: #282828;
+    /*This makes the modal footer have an light blue color.*/
+    background-color: #a6e1ec;
 }
 
 .modal-dialog{
-    /*This makes the modal dialog have a black color.*/
-    background-color: black;
+    /*This makes the modal dialog have a light blue color.*/
+    background-color: #9acfea;
 }
 
 .modal-content{
-    /*This makes the modal content have an off grey color.*/
-    background-color: #282828;
+    /*This makes the modal content have an light blue color.*/
+    background-color: #a6e1ec;
 }
 
 .jumbotron{
-    /*This makes the jumbotron have an off grey color.*/
-    background-color: #282828;
+    /*This makes the jumbotron have an light blue color.*/
+    background-color: #a6e1ec;
 }
